@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Quickdraw</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <button class="w3-btn w3-ripple w3-red" id="btnClear" onclick="clearDrawing()">clear</button>
+  <div id="wrapper">
+    <canvas id="canvas" resize></canvas>
+  </div>
+  <div id="info" class="modal">
+  </div>
+
+  <script src='js/paper-0.9.25.min.js'></script>
+  <script src='js/highcharts-5.0.4.min.js'></script>
+
+  <script src="js/drawing.js"></script>
+
+</body>
+</html>
